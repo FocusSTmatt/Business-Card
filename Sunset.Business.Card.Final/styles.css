@@ -1,0 +1,104 @@
+@import URL("https://fonts.googleapis.com/css?family=Roboto:wght@800&display=swap&effect=fire-animation");
+
+body {
+    margin: 20px;
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.avatar {
+    width: 100px;
+    border-radius: 50%;
+    height: 100px;
+    justify-content: left;
+    border: 7px dotted orange;
+ 
+}
+.card:hover {
+     
+}
+.font-effect-fire-animation {
+       font-family: Roboto;
+      
+    
+}
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/sunset-quotes-21-1586531574.jpg");
+    background-size: 420px, auto;
+    color: #2b2839;
+    /*font-weight: 800px;*/
+    font-family: Roboto;
+    background-repeat: no-repeat;
+    
+    text-shadow: 2px 2px white; 
+    animation-name: bounce;
+    animation-timing-function: ease;
+
+        
+    /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
+img {
+    animation-name: photobounce;
+    animation-fill-mode: backwards;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1)
+    
+}
+@keyframes photobounce{
+   
+    0% {
+    transform: translatex(-20px);
+    
+  }
+  25% {
+    transform: translatey(-20px);
+ 
+  }  
+  50% {  
+    transform: translatex(39px);
+  
+  }
+   75% {
+    transform: translatey(80px);
+   }
+    100% {
+    transform: translatex(-35px);
+    }
+       
+}
+
+
+
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+
